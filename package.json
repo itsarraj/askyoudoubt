@@ -1,0 +1,42 @@
+{
+    "name": "askyoudoubt",
+    "version": "1.0.0",
+    "description": "meme sharing & discussion social media for developers",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodeman index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/itsarraj/askyoudoubt.git"
+    },
+    "keywords": [
+        "askyoudoubt"
+    ],
+    "author": "itsarraj",
+    "license": "MIT License",
+    "bugs": {
+        "url": "https://github.com/itsarraj/askyoudoubt/issues"
+    },
+    "homepage": "https://github.com/itsarraj/askyoudoubt#readme",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "body-parser": "^1.20.2",
+        "connect-flash": "^0.1.1",
+        "connect-mongo": "^5.0.0",
+        "cookie-parser": "^1.4.6",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "express-ejs-layouts": "^2.5.1",
+        "express-session": "^1.17.3",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.0.4",
+        "nodemailer": "^6.9.1",
+        "passport": "^0.6.0",
+        "passport-google-oauth": "^2.0.0",
+        "passport-local": "^1.0.0",
+        "pm2": "^5.3.0"
+    }
+}
